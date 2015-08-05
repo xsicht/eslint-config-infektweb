@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-infektweb",
+  "version": "0.1.0",
+  "description": "ESLint shared configs for Infektweb projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infektweb/eslint-config-infektweb.git"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "eslintconfig",
+    "eslint-config",
+    "eslint config",
+    "code style",
+    "code standards"
+  ],
+  "bugs": {
+    "url": "https://github.com/infektweb/eslint-config-infektwe/issues"
+  },
+  "homepage": "https://github.com/infektweb/eslint-config-infektweb",
+  "dependencies": {
+    "babel-eslint": "4.0.5",
+    "eslint-plugin-bdd": "1.1.0",
+    "eslint-plugin-classes": "0.0.2",
+    "eslint-plugin-react": "3.2.0"
+  }
+}
