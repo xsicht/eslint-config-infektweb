@@ -1,6 +1,6 @@
 # eslint-config-infektweb
 
-  ESLint configs files
+  ESLint config files
 
 ## Usage
 
