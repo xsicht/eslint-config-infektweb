@@ -47,9 +47,6 @@ module.exports = {
         // Nesting ternary expressions makes code unclear
         'no-nested-ternary': 2,
 
-        // Disallow use of reserved words as object property names
-        'no-reserved-keys': 2,
-
         // Disallow boolean literals in conditional expressions
         // e.g. bad: var a = x ? true : false;
         'no-unneeded-ternary': 2,
