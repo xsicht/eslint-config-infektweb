@@ -1,5 +1,8 @@
 module.exports = {
     'rules': {
+        // Enforce return after callback
+        'callback-return': [2, ['callback', 'cb', 'next', 'done']],
+
         // Ensure error callbacks are handled.
         // Error param matches any string that contains 'err' or 'Err'
         'handle-callback-err': [2, '^.*(e|E)rr' ],
