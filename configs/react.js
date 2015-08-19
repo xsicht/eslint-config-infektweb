@@ -77,6 +77,7 @@ module.exports = {
                 'componentDidMount',
                 'componentWillReceiveProps',
                 'shouldComponentUpdate',
+                'componentWillUpdate',
                 'componentDidUpdate',
                 'componentWillUnmount',
                 'render',
