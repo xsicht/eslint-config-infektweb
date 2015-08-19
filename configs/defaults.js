@@ -31,6 +31,9 @@ module.exports = {
         // Enforce function declarations instead of expressions
         'func-style': [2, 'declaration'],
 
+        // Validates indentation
+        'indent': [2, 4, { 'SwitchCase': 1 }],
+
         // Enforce Variable Initializations
         'init-declarations': 2,
 
