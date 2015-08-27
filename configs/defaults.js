@@ -28,6 +28,9 @@ module.exports = {
         // Enforce newline before a dot in a member expression
         'dot-location': [2, 'property'],
 
+        // Require file to end with single newline
+        'eol-last': [2],
+
         // Enforce function declarations instead of expressions
         'func-style': [2, 'declaration'],
 
