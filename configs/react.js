@@ -13,11 +13,17 @@ module.exports = {
         // e.g. <Icon spin />
         'react/jsx-boolean-value': [2, 'never'],
 
+        // Validate closing bracket location in JSX
+        'react/jsx-closing-bracket-location': [2, { 'location': 'after-props' }],
+
         // Disallow spaces inside of curly braces in JSX attributes
         'react/jsx-curly-spacing': [2, 'never'],
 
         // Limit maximum of props on a single line in JSX
         'react/jsx-max-props-per-line': [2, { 'maximum': 2 }],
+
+        // Validate props indentation in JSX
+        'jsx-indent-props': 2,
 
         // Prevent duplicate properties in JSX
         'react/jsx-no-duplicate-props': [2, { 'ignoreCase': true }],

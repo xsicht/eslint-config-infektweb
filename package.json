@@ -25,6 +25,6 @@
     "eslint": "1.3.x",
     "eslint-plugin-bdd": "1.x",
     "eslint-plugin-classes": "0.x",
-    "eslint-plugin-react": "3.x"
+    "eslint-plugin-react": "3.3.x"
   }
 }
