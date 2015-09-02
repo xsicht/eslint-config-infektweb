@@ -23,11 +23,17 @@ module.exports = {
         // Verify calls of super() in constructors
         'constructor-super': 2,
 
+        // Disallow duplicate name in class members
+        'no-dupe-class-members': 2,
+
         // Disallow use of this/super before calling super() in constructors
         'no-this-before-super': 2,
 
         // Require let or const instead of var
         'no-var': 2,
+
+        // Suggest using arrow functions as callbacks
+        'prefer-arrow-callback': 2,
 
         // Suggest to use const declaration for variables
         // that are never modified after declared.
