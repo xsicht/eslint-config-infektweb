@@ -47,7 +47,7 @@ module.exports = {
         'max-depth': [1, 3],
 
         // Maximum line-length
-        'max-len': [1, 100, 4, { 'ignoreUrls': true, 'ignorePattern': '^(import\\s.+from\\s.+;)|(\/\/ eslint-disable-line)' }],
+        'max-len': [2, 110, 4, { 'ignoreUrls': true, 'ignorePattern': '^(import\\s.+from\\s.+;)|(\/\/ eslint-disable-line)' }],
 
         // Limit maximum number of statements
         'max-statements':[2, 15],
