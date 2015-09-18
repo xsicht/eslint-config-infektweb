@@ -77,6 +77,7 @@ module.exports = {
                 'propTypes',
                 'defaultProps',
                 'contextTypes',
+                'fetchData',
                 'statics',
                 'constructor',
                 'componentWillMount',
