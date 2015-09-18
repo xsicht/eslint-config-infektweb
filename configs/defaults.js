@@ -21,7 +21,7 @@ module.exports = {
         'brace-style': [2, '1tbs'],
 
         // Limit Cyclomatic Complexity
-        'complexity': [1, 5],
+        'complexity': [1, 8],
 
         'computed-property-spacing': [2, 'never'],
 
