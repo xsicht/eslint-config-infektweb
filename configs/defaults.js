@@ -75,6 +75,9 @@ module.exports = {
         // Disallows multiple blank lines
         'no-multiple-empty-lines': [2, {'max': 1}],
 
+        // Disallow use of negated expressions in conditions 
+        'no-negated-condition': 2,
+
         // Nesting ternary expressions makes code unclear
         'no-nested-ternary': 2,
 
