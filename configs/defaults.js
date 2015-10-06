@@ -127,6 +127,9 @@ module.exports = {
         // Enforce quote style
         'quotes': [2, 'single'],
 
+        // Enforce semicolons
+        'semi': 2,
+
         // Require spaces following keywords (e.g. if, else, for, ...)
         'space-after-keywords': 2,
 
