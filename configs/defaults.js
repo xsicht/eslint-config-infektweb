@@ -23,6 +23,7 @@ module.exports = {
         // Limit Cyclomatic Complexity
         'complexity': [1, 8],
 
+        // Disallow spaces inside of computed properties
         'computed-property-spacing': [2, 'never'],
 
         // allow brace-less single-line if, else, etc.
