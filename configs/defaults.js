@@ -66,16 +66,16 @@ module.exports = {
         // e.g. var num = .5;
         'no-floating-decimal': 2,
 
-        // Disallow this keywords outside of classes or class-like objects
-        'no-invalid-this': 2,
-
         // Disallow the type conversion with shorter notations
         'no-implicit-coercion': 2,
+
+        // Disallow this keywords outside of classes or class-like objects
+        'no-invalid-this': 2,
 
         // Disallows multiple blank lines
         'no-multiple-empty-lines': [2, {'max': 1}],
 
-        // Disallow use of negated expressions in conditions 
+        // Disallow use of negated expressions in conditions
         'no-negated-condition': 2,
 
         // Nesting ternary expressions makes code unclear
@@ -89,12 +89,12 @@ module.exports = {
         // or an object using the Error object as base objects for user-defined exceptions
         'no-throw-literal': 2,
 
+        // Avoid unexpected multiline expressions
+        'no-unexpected-multiline': 2,
+
         // Disallow boolean literals in conditional expressions
         // e.g. bad: var a = x ? true : false;
         'no-unneeded-ternary': 2,
-
-        // Avoid unexpected multiline expressions
-        'no-unexpected-multiline': 2,
 
         // Disallow unnecessary .call() and .apply()
         'no-useless-call': 2,
