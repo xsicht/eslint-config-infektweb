@@ -78,13 +78,6 @@ module.exports = {
         // Nesting ternary expressions makes code unclear
         'no-nested-ternary': 2,
 
-        // Avoid unexpected multiline expressions
-        'no-unexpected-multiline': 2,
-
-        // Disallow boolean literals in conditional expressions
-        // e.g. bad: var a = x ? true : false;
-        'no-unneeded-ternary': 2,
-
         // Comparing a variable against itself is usually an error,
         // either an typo or refactoring error
         'no-self-compare': 2,
@@ -93,11 +86,21 @@ module.exports = {
         // or an object using the Error object as base objects for user-defined exceptions
         'no-throw-literal': 2,
 
+        // Disallow boolean literals in conditional expressions
+        // e.g. bad: var a = x ? true : false;
+        'no-unneeded-ternary': 2,
+
+        // Avoid unexpected multiline expressions
+        'no-unexpected-multiline': 2,
+
         // Disallow unnecessary .call() and .apply()
         'no-useless-call': 2,
 
         // Disallow unncessary concatenation of strings
         'no-useless-concat': 2,
+
+        // Disallow unused variables
+        'no-unused-vars': 2,
 
         // Disallow use of void operator
         'no-void': 2,
