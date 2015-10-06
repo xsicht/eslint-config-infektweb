@@ -49,6 +49,9 @@ module.exports = {
         // Prevent usage of setState in componentDidUpdate
         'react/no-did-update-set-state': 2,
 
+        // Prevent direct mutation of this.state
+        'react/no-direct-mutation-state': 2,
+
         // Prevent multiple component definition per file
         'react/no-multi-comp': 2,
 
