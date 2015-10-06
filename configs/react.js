@@ -6,6 +6,9 @@ module.exports = {
         'react'
     ],
     'rules': {
+        // Enforce quote style for JSX attributes
+        'jsx-quotes': [2, 'prefer-double'],
+
         // Prevent missing displayName in a React component definition
         'react/display-name': [2, { 'acceptTranspilerName': true }],
 
@@ -30,9 +33,6 @@ module.exports = {
 
         // Disallow undeclared variables in JSX
         'react/jsx-no-undef': 2,
-
-        // Enforce quote style for JSX attributes
-        'react/jsx-quotes': [2, 'double'],
 
         // Enforce propTypes declarations alphabetical sorting
         'react/jsx-sort-prop-types': 2,
