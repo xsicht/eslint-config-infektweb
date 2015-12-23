@@ -53,8 +53,6 @@ module.exports = {
         // Limit maximum number of statements
         'max-statements':[2, 15],
 
-
-
         // Disallow lexical declarations in case/default clauses
         'no-case-declarations': 2,
 
@@ -76,7 +74,7 @@ module.exports = {
         'no-invalid-this': 2,
 
         // Allow magic numbers
-        'no-magic-numbers': 0
+        'no-magic-numbers': 0,
 
         // Disallows multiple blank lines
         'no-multiple-empty-lines': [2, {'max': 1}],
