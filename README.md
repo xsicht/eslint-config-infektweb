@@ -8,7 +8,7 @@
 
   ```sh
   npm install --save-dev eslint-config-infektweb
-  npm install --save-dev babel-eslint eslint-plugin-bdd eslint-plugin-classes eslint-plugin-react
+  npm install --save-dev babel-eslint eslint-plugin-bdd eslint-plugin-react
   ```
 
   Add the `extends` option to your `.eslintrc`:

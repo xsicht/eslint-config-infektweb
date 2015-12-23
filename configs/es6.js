@@ -6,22 +6,22 @@ module.exports = {
     'ecmaFeatures': {
         'modules': true,
     },
-    'plugins': [
-        'classes'
-    ],
     'rules': {
+        // Use the short syntax for arrow functions where it's readable
+        // (no convention)
+        'arrow-body-style': 0,
+
         // Require parens in arrow function arguments
         'arrow-parens': 2,
 
-        // space between method name and parens
-        'classes/space': 2,
-
-        // Class name should start with upper case.
-        // Method name should start with lower case.
-        'classes/name': [2, 'class', 'method'],
-
         // Verify calls of super() in constructors
         'constructor-super': 2,
+
+        // Disallow arrow functions where a condition is expected
+        'no-arrow-condition': 2,
+
+        // Disallow empty destructuring patterns
+        'no-empty-pattern': 2,
 
         // Disallow duplicate name in class members
         'no-dupe-class-members': 2,

@@ -53,8 +53,10 @@ module.exports = {
         // Limit maximum number of statements
         'max-statements':[2, 15],
 
-        // Disallow early use of variables but allow function declarations
-        'no-use-before-define': [2, 'nofunc'],
+
+
+        // Disallow lexical declarations in case/default clauses
+        'no-case-declarations': 2,
 
         // Disallow use of console
         'no-console': 2,
@@ -72,6 +74,9 @@ module.exports = {
 
         // Disallow this keywords outside of classes or class-like objects
         'no-invalid-this': 2,
+
+        // Allow magic numbers
+        'no-magic-numbers': 0
 
         // Disallows multiple blank lines
         'no-multiple-empty-lines': [2, {'max': 1}],
@@ -102,6 +107,9 @@ module.exports = {
 
         // Disallow unncessary concatenation of strings
         'no-useless-concat': 2,
+
+        // Disallow early use of variables but allow function declarations
+        'no-use-before-define': [2, 'nofunc'],
 
         // Disallow unused variables
         'no-unused-vars': 2,
