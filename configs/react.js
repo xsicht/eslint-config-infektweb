@@ -28,6 +28,9 @@ module.exports = {
         // Validate props indentation in JSX
         'react/jsx-indent-props': 2,
 
+        // Validate JSX indentation
+        "react/jsx-indent": 2,
+
         // Detect missing key prop
         'react/jsx-key': 2,
 
@@ -72,6 +75,9 @@ module.exports = {
 
         // Prevent multiple component definition per file
         'react/no-multi-comp': 2,
+
+        // Prevent using string references
+        "react/no-string-refs": 2,
 
         // Prevent usage of unknown DOM property
         'react/no-unknown-property': 2,
