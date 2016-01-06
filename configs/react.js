@@ -28,6 +28,9 @@ module.exports = {
         // Validate props indentation in JSX
         'react/jsx-indent-props': 2,
 
+        // Validate general indentation in JSX
+        "react/jsx-indent": 2,
+
         // Detect missing key prop
         'react/jsx-key': 2,
 
