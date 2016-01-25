@@ -1,3 +1,7 @@
+var checkModuleAvailability = require('../helpers/checkModuleAvailability');
+
+checkModuleAvailability('eslint-plugin-react');
+
 module.exports = {
     'ecmaFeatures': {
         'jsx': true

@@ -1,3 +1,7 @@
+var checkModuleAvailability = require('../helpers/checkModuleAvailability');
+
+checkModuleAvailability('eslint-plugin-bdd');
+
 module.exports = {
     'plugins': [
         'bdd'
