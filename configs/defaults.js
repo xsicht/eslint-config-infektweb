@@ -86,6 +86,9 @@ module.exports = {
         // Allow magic numbers
         'no-magic-numbers': 0,
 
+        // Disallow multiple spaces
+        'no-multi-spaces': 2,
+
         // Disallows multiple blank lines
         'no-multiple-empty-lines': [2, {'max': 1}],
 
