@@ -48,6 +48,9 @@ module.exports = {
         // Enforce Variable Initializations
         'init-declarations': 2,
 
+        // Enforce Property Spacing
+        'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
+
         // Maximum depth blocks can be nested
         'max-depth': [1, 3],
 
