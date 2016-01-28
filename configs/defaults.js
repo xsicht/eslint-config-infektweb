@@ -97,6 +97,9 @@ module.exports = {
         // or an object using the Error object as base objects for user-defined exceptions
         'no-throw-literal': 2,
 
+        // Disallow trailing spaces at the end of lines
+        'no-trailing-spaces': 2,
+
         // Avoid unexpected multiline expressions
         'no-unexpected-multiline': 2,
 
