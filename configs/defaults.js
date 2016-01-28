@@ -24,6 +24,9 @@ module.exports = {
         // Use the 'true bracy style'
         'brace-style': [2, '1tbs'],
 
+        // Enforces spacing around commas
+        'comma-spacing': [2, { 'before': false, 'after': true }],
+
         // Limit Cyclomatic Complexity
         'complexity': [1, 8],
 
