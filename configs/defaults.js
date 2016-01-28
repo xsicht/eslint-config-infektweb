@@ -24,6 +24,9 @@ module.exports = {
         // Use the 'true bracy style'
         'brace-style': [2, '1tbs'],
 
+        // Require Camelcase
+        'camelcase': 2,
+
         // Enforces spacing around commas
         'comma-spacing': [2, { 'before': false, 'after': true }],
 
