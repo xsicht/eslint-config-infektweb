@@ -1,9 +1,13 @@
 var checkModuleAvailability = require('../helpers/checkModuleAvailability');
 
 checkModuleAvailability('babel-eslint');
+checkModuleAvailability('eslint-plugin-babel');
 
 module.exports = {
     'parser': 'babel-eslint',
+    'plugins': [
+        'babel'
+    ],
     'env': {
         'es6': true
     },
@@ -16,7 +20,8 @@ module.exports = {
         'arrow-body-style': 0,
 
         // Require parens in arrow function arguments
-        'arrow-parens': 2,
+        'arrow-parens': 0,
+        'babel/arrow-parens': 2, // Handles async functions correctly
 
         // Require space before/after arrow function's arrow
         'arrow-spacing': 2,
