@@ -113,6 +113,7 @@ module.exports = {
                 'contextTypes',
                 'fetchData',
                 'statics',
+                'state',
                 'constructor',
                 'componentWillMount',
                 'componentDidMount',
