@@ -107,6 +107,9 @@ module.exports = {
         // Nesting ternary expressions makes code unclear
         'no-nested-ternary': 2,
 
+        // Disallow Self Assignment
+        'no-self-assign': 2,
+
         // Comparing a variable against itself is usually an error,
         // either an typo or refactoring error
         'no-self-compare': 2,
