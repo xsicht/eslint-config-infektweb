@@ -143,6 +143,9 @@ module.exports = {
         // Disallow unnecessary constructor
         'no-useless-constructor': 2,
 
+        // Disallow unnecessary escape usage
+        'no-useless-escape': 2,
+
         // Disallow early use of variables but allow function declarations
         'no-use-before-define': [2, 'nofunc'],
 
