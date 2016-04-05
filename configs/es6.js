@@ -29,9 +29,6 @@ module.exports = {
         // Verify calls of super() in constructors
         'constructor-super': 2,
 
-        // Allow only one statement per line
-        'max-statements-per-line': 2,
-
         // Disallow arrow functions where they could be confused with comparisons
         'no-confusing-arrow': 2,
 
