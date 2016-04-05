@@ -41,6 +41,9 @@ module.exports = {
         // Disallow duplicate name in class members
         'no-dupe-class-members': 2,
 
+        // Disallow Symbol Constructor
+        'no-new-symbol'; 2,
+
         // Disallow use of this/super before calling super() in constructors
         'no-this-before-super': 2,
 
