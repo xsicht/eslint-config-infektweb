@@ -79,6 +79,9 @@ module.exports = {
         // e.g. if (foo == null) ...
         'no-eq-null': 2,
 
+        // Disallow Unnecessary Labels
+        'no-extra-label': 2,
+
         // Disallow floating decimals
         // e.g. var num = .5;
         'no-floating-decimal': 2,
