@@ -131,6 +131,9 @@ module.exports = {
         // Disallow unncessary concatenation of strings
         'no-useless-concat': 2,
 
+        // Disallow unnecessary constructor
+        'no-useless-constructor': 2,
+
         // Disallow early use of variables but allow function declarations
         'no-use-before-define': [2, 'nofunc'],
 
