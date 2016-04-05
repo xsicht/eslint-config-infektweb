@@ -35,14 +35,17 @@ module.exports = {
         // Disallow use of constant expressions in conditions
         'no-constant-condition': 2,
 
-        // Disallow empty destructuring patterns
-        'no-empty-pattern': 2,
-
         // Disallow duplicate name in class members
         'no-dupe-class-members': 2,
 
+        // Disallow duplicate imports
+        'no-duplicate-imports': 2,
+
+        // Disallow empty destructuring patterns
+        'no-empty-pattern': 2,
+
         // Disallow Symbol Constructor
-        'no-new-symbol'; 2,
+        'no-new-symbol': 2,
 
         // Disallow use of this/super before calling super() in constructors
         'no-this-before-super': 2,
