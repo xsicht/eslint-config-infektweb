@@ -118,6 +118,9 @@ module.exports = {
         // Avoid unexpected multiline expressions
         'no-unexpected-multiline': 2,
 
+        // Disallow unmodified conditions of loops
+        'no-unmodified-loop-condition': 2,
+
         // Disallow boolean literals in conditional expressions
         // e.g. bad: var a = x ? true : false;
         'no-unneeded-ternary': 2,
