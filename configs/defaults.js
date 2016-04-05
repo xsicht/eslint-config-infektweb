@@ -89,6 +89,9 @@ module.exports = {
         // Disallow this keywords outside of classes or class-like objects
         'no-invalid-this': 2,
 
+        // Disallow Functions in Loops
+        'no-loop-func': 2,
+
         // Allow magic numbers
         'no-magic-numbers': 0,
 
@@ -147,7 +150,7 @@ module.exports = {
         // These comments are a warning signal, that there is something not production ready in your code.
         'no-warning-comments': [2, { 'terms': ['todo', 'fixme'], 'location': 'start' }],
 
-        // Disallow whitespace before properties 
+        // Disallow whitespace before properties
         'no-whitespace-before-property': 2,
 
         // Enforces a space inside of curly braces in objects
