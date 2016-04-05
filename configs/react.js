@@ -14,7 +14,7 @@ module.exports = {
         'jsx-quotes': [2, 'prefer-double'],
 
         // Prevent missing displayName in a React component definition
-        'react/display-name': [2, { 'acceptTranspilerName': true }],
+        'react/display-name': [2, { 'ignoreTranspilerName': false }],
 
         // Enforce boolean attributes notation in JSX
         // e.g. <Icon spin />
@@ -55,9 +55,6 @@ module.exports = {
 
         // Enforce PasalCase for user-defined JSX components
         'react/jsx-pascal-case': 2,
-
-        // Enforce propTypes declarations alphabetical sorting
-        'react/jsx-sort-prop-types': 2,
 
         // Prevent React to be incorrectly marked as unused
         'react/jsx-uses-react': 2,
@@ -128,6 +125,9 @@ module.exports = {
                 'everything-else'
             ]
         }],
+
+        // Enforce propTypes declarations alphabetical sorting
+        'react/sort-prop-types': 2,
 
         // Prevent missing parentheses around multilines JSX
         'react/wrap-multilines': 2
