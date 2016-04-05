@@ -189,6 +189,9 @@ module.exports = {
         // Require a whitespace at the beginning of a commment
         'spaced-comment': [2, 'always'],
 
+        // Disallow Usage of Spacing in Template Strings
+        'template-curly-spacing': 2,
+
         // Validates JSDoc comments are syntactically correct
         'valid-jsdoc': [2, {
             'requireParamDescription': false,
