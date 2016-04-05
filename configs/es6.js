@@ -29,8 +29,11 @@ module.exports = {
         // Verify calls of super() in constructors
         'constructor-super': 2,
 
-        // Disallow arrow functions where a condition is expected
-        'no-arrow-condition': 2,
+        // Disallow arrow functions where they could be confused with comparisons
+        'no-confusing-arrow': 2,
+
+        // Disallow use of constant expressions in conditions
+        'no-constant-condition': 2,
 
         // Disallow empty destructuring patterns
         'no-empty-pattern': 2,

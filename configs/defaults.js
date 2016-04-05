@@ -54,6 +54,9 @@ module.exports = {
         // Enforce Variable Initializations
         'init-declarations': 2,
 
+        // Require spaces following keywords (e.g. if, else, for, ...)
+        'keyword-spacing': 2,
+
         // Enforce Property Spacing
         'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
 
@@ -158,9 +161,6 @@ module.exports = {
 
         // Enforce semicolons
         'semi': 2,
-
-        // Require spaces following keywords (e.g. if, else, for, ...)
-        'space-after-keywords': 2,
 
         // Require space before the opening brace of blocks
         'space-before-blocks': 2,
