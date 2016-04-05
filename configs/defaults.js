@@ -146,6 +146,9 @@ module.exports = {
         // Disallow early use of variables but allow function declarations
         'no-use-before-define': [2, 'nofunc'],
 
+        // Disallow Unused Labels
+        'no-unused-labels': 2,
+
         // Disallow unused variables
         'no-unused-vars': 2,
 
