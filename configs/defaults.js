@@ -72,6 +72,9 @@ module.exports = {
         // Specify the Maximum Number of Statements Allowed per Line
         'max-statements-per-line': 2,
 
+        // Require newline before return statement
+        'newline-before-return': 2,
+
         // Newline Per 3 Chained Methods
         'newline-per-chained-call': [2, {"ignoreChainWithDepth": 3}],
 
