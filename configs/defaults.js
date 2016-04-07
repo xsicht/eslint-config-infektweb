@@ -72,6 +72,9 @@ module.exports = {
         // Specify the Maximum Number of Statements Allowed per Line
         'max-statements-per-line': 2,
 
+        // Newline Per 3 Chained Methods
+        'newline-per-chained-call': [2, {"ignoreChainWithDepth": 3}],
+
         // Disallow lexical declarations in case/default clauses
         'no-case-declarations': 2,
 
@@ -140,6 +143,12 @@ module.exports = {
         // e.g. bad: var a = x ? true : false;
         'no-unneeded-ternary': 2,
 
+        // Disallow Unused Labels
+        'no-unused-labels': 2,
+
+        // Disallow unused variables
+        'no-unused-vars': 2,
+
         // Disallow unnecessary .call() and .apply()
         'no-useless-call': 2,
 
@@ -154,12 +163,6 @@ module.exports = {
 
         // Disallow early use of variables but allow function declarations
         'no-use-before-define': [2, 'nofunc'],
-
-        // Disallow Unused Labels
-        'no-unused-labels': 2,
-
-        // Disallow unused variables
-        'no-unused-vars': 2,
 
         // Disallow use of void operator
         'no-void': 2,
