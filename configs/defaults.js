@@ -78,6 +78,9 @@ module.exports = {
         // Newline Per 3 Chained Methods
         'newline-per-chained-call': [2, {"ignoreChainWithDepth": 3}],
 
+        // Disallow Use of Alert
+        'no-alert': 2,
+
         // Disallow lexical declarations in case/default clauses
         'no-case-declarations': 2,
 
