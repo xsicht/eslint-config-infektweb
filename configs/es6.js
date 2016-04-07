@@ -47,6 +47,9 @@ module.exports = {
         // Disallow Symbol Constructor
         'no-new-symbol': 2,
 
+        // Disallow specific imports
+        'no-restricted-imports': 0,
+
         // Disallow use of this/super before calling super() in constructors
         'no-this-before-super': 2,
 
@@ -70,6 +73,9 @@ module.exports = {
         'prefer-spread': 2,
 
         // Disallow generator functions that do not have yield
-        'require-yield': 2
+        'require-yield': 2,
+
+        // Import Sorting
+        'sort-imports': 0
     }
 };

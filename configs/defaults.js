@@ -48,6 +48,9 @@ module.exports = {
         // Enforce function declarations instead of expressions
         'func-style': [2, 'declaration'],
 
+        // Blacklist certain identifiers to prevent them being used
+        'id-blacklist': 0,
+
         // Validates indentation
         'indent': [2, 4, { 'SwitchCase': 1 }],
 
@@ -191,6 +194,9 @@ module.exports = {
 
         // Exactly one declarator per declaration per function (var) or block (let or const)
         'one-var': [2, 'never'],
+
+        // Require or disallow an newline around variable declarations
+        'one-var-declaration-per-line': 0,
 
         // placing operators at the beginning of the line makes the code more readable
         'operator-linebreak': [2, 'before'],
