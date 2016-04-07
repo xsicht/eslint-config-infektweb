@@ -204,11 +204,11 @@ module.exports = {
         // Never write padded blocks (start and end with blank lines)
         'padded-blocks': [2, 'never'],
 
-        // Use literals for object property names (strings only as needed)
-        'quote-props': [2, 'as-needed'],
-
         // Enforce quote style
         'quotes': [2, 'single'],
+
+        // Use literals for object property names (strings only as needed)
+        'quote-props': [2, 'as-needed'],
 
         // Enforce semicolons
         'semi': 2,
