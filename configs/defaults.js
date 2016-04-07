@@ -10,13 +10,13 @@ module.exports = {
         // Disallow spaces inside of brackets
         'array-bracket-spacing': [2, 'never'],
 
-        // Catch focus tests
-        // e.g. ddescribe, iit
-        'bdd/focus': 2,
-
         // Catch excluded tests
         // e.g. xdescribe, xit
         'bdd/exclude': 2,
+
+        // Catch focus tests
+        // e.g. ddescribe, iit
+        'bdd/focus': 2,
 
         // Enforce spaces inside of single line blocks
         'block-spacing': [2, 'always'],
