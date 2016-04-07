@@ -219,11 +219,11 @@ module.exports = {
         // Disallow spaces before function parenthesis
         'space-before-function-paren': [2, 'never'],
 
-        // Disallow spaces inside of parentheses
-        'space-in-parens': [2, 'never'],
-
         // Require a whitespace at the beginning of a commment
         'spaced-comment': [2, 'always'],
+
+        // Disallow spaces inside of parentheses
+        'space-in-parens': [2, 'never'],
 
         // Disallow Usage of Spacing in Template Strings
         'template-curly-spacing': 2,
