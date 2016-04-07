@@ -104,6 +104,9 @@ module.exports = {
         // Disallow this keywords outside of classes or class-like objects
         'no-invalid-this': 2,
 
+        // Disallow Labeled Statements
+        'no-labels': 2,
+
         // Disallow Functions in Loops
         'no-loop-func': 2,
 
