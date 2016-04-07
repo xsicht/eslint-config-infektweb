@@ -92,6 +92,9 @@ module.exports = {
         // Disallow the type conversion with shorter notations
         'no-implicit-coercion': 2,
 
+        // Disallow var and Named Functions in Global Scope
+        'no-implicit-globals': 2,
+
         // Disallow this keywords outside of classes or class-like objects
         'no-invalid-this': 2,
 
