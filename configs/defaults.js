@@ -69,6 +69,9 @@ module.exports = {
         // Limit maximum number of statements
         'max-statements':[2, 15],
 
+        // Specify the Maximum Number of Statements Allowed per Line
+        'max-statements-per-line': 2,
+
         // Disallow lexical declarations in case/default clauses
         'no-case-declarations': 2,
 
