@@ -81,6 +81,9 @@ module.exports = {
         // Disallow use of console
         'no-console': 2,
 
+        // Disallow empty functions, expect arrow functions
+        'no-empty-function': [2, { 'allow': ['arrowFunctions'] }],
+
         // Disallow null comparisons
         // e.g. if (foo == null) ...
         'no-eq-null': 2,
