@@ -29,14 +29,26 @@ module.exports = {
         // Verify calls of super() in constructors
         'constructor-super': 2,
 
-        // Disallow arrow functions where a condition is expected
-        'no-arrow-condition': 2,
+        // Disallow arrow functions where they could be confused with comparisons
+        'no-confusing-arrow': 2,
+
+        // Disallow use of constant expressions in conditions
+        'no-constant-condition': 2,
+
+        // Disallow duplicate name in class members
+        'no-dupe-class-members': 2,
+
+        // Disallow duplicate imports
+        'no-duplicate-imports': 2,
 
         // Disallow empty destructuring patterns
         'no-empty-pattern': 2,
 
-        // Disallow duplicate name in class members
-        'no-dupe-class-members': 2,
+        // Disallow symbol constructor
+        'no-new-symbol': 2,
+
+        // Disallow specific imports
+        'no-restricted-imports': 0,
 
         // Disallow use of this/super before calling super() in constructors
         'no-this-before-super': 2,
@@ -51,13 +63,20 @@ module.exports = {
         // that are never modified after declared.
         'prefer-const': 2,
 
-        // Suggest using Reflect methods where applicable
+        // Suggest using reflect methods where applicable
         'prefer-reflect': 2,
+
+        // Suggest using the rest parameters instead of arguments
+        'prefer-rest-params': 2,
 
         // Suggest using the spread operator instead of .apply()
         'prefer-spread': 2,
 
         // Disallow generator functions that do not have yield
-        'require-yield': 2
+        'require-yield': 2,
+
+        // Import sorting, not usable for us because of a different sort method
+        // See https://github.com/infektweb/conventions/blob/master/docs/javascript.md
+        'sort-imports': 0
     }
 };
