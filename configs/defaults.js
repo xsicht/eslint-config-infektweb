@@ -24,19 +24,19 @@ module.exports = {
         // Use the 'true bracy style'
         'brace-style': [2, '1tbs'],
 
-        // Require Camelcase
+        // Require camelcase
         'camelcase': 2,
 
         // Enforces spacing around commas
         'comma-spacing': [2, { 'before': false, 'after': true }],
 
-        // Limit Cyclomatic Complexity
+        // Limit cyclomatic complexity
         'complexity': [1, 8],
 
         // Disallow spaces inside of computed properties
         'computed-property-spacing': [2, 'never'],
 
-        // allow brace-less single-line if, else, etc.
+        // Allow brace-less single-line if, else, etc.
         'curly': [2, 'multi-line'],
 
         // Enforce newline before a dot in a member expression
@@ -48,19 +48,22 @@ module.exports = {
         // Enforce function declarations instead of expressions
         'func-style': [2, 'declaration'],
 
-        // Blacklist certain identifiers to prevent them being used
+        // Blacklist certain identifiers (variable names, function names, object properties )
+        // e.g. the following would throw an error:
+        // 'id-blacklist': ['data']
+        // const data = {...};
         'id-blacklist': 0,
 
         // Validates indentation
         'indent': [2, 4, { 'SwitchCase': 1 }],
 
-        // Enforce Variable Initializations
+        // Enforce variable initializations
         'init-declarations': 2,
 
         // Require spaces following keywords (e.g. if, else, for, ...)
         'keyword-spacing': 2,
 
-        // Enforce Property Spacing
+        // Enforce property spacing
         'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
 
         // Maximum depth blocks can be nested
@@ -72,16 +75,16 @@ module.exports = {
         // Limit maximum number of statements
         'max-statements':[2, 15],
 
-        // Specify the Maximum Number of Statements Allowed per Line
+        // Specify the maximum number of statements allowed per line
         'max-statements-per-line': 2,
 
         // Require newline before return statement
         'newline-before-return': 2,
 
-        // Newline Per 3 Chained Methods
+        // Newline per 3 chained methods
         'newline-per-chained-call': [2, {'ignoreChainWithDepth': 3}],
 
-        // Disallow Use of Alert
+        // Disallow use of alert
         'no-alert': 2,
 
         // Disallow lexical declarations in case/default clauses
@@ -97,7 +100,7 @@ module.exports = {
         // e.g. if (foo == null) ...
         'no-eq-null': 2,
 
-        // Disallow Unnecessary Labels
+        // Disallow unnecessary labels
         'no-extra-label': 2,
 
         // Disallow floating decimals
@@ -107,16 +110,16 @@ module.exports = {
         // Disallow the type conversion with shorter notations
         'no-implicit-coercion': 2,
 
-        // Disallow var and Named Functions in Global Scope
+        // Disallow var and named functions in global scope
         'no-implicit-globals': 2,
 
         // Disallow this keywords outside of classes or class-like objects
         'no-invalid-this': 2,
 
-        // Disallow Labeled Statements
+        // Disallow labeled statements
         'no-labels': 2,
 
-        // Disallow Functions in Loops
+        // Disallow functions in loops
         'no-loop-func': 2,
 
         // Allow magic numbers
@@ -134,15 +137,15 @@ module.exports = {
         // Nesting ternary expressions makes code unclear
         'no-nested-ternary': 2,
 
-        // Disallow Self Assignment
+        // Disallow self assignment
         'no-self-assign': 2,
 
         // Comparing a variable against itself is usually an error,
         // either an typo or refactoring error
         'no-self-compare': 2,
 
-        // It is considered good practice to only throw the Errorobject itself
-        // or an object using the Error object as base objects for user-defined exceptions
+        // It is considered good practice to only throw the errorobject itself
+        // or an object using the error object as base objects for user-defined exceptions
         'no-throw-literal': 2,
 
         // Disallow trailing spaces at the end of lines
@@ -158,7 +161,7 @@ module.exports = {
         // e.g. bad: var a = x ? true : false;
         'no-unneeded-ternary': 2,
 
-        // Disallow Unused Labels
+        // Disallow unused labels
         'no-unused-labels': 2,
 
         // Disallow unused variables
@@ -198,7 +201,7 @@ module.exports = {
         // Require or disallow an newline around variable declarations
         'one-var-declaration-per-line': 0,
 
-        // placing operators at the beginning of the line makes the code more readable
+        // Placing operators at the beginning of the line makes the code more readable
         'operator-linebreak': [2, 'before'],
 
         // Never write padded blocks (start and end with blank lines)
@@ -225,7 +228,7 @@ module.exports = {
         // Disallow spaces inside of parentheses
         'space-in-parens': [2, 'never'],
 
-        // Disallow Usage of Spacing in Template Strings
+        // Disallow usage of spacing in template strings
         'template-curly-spacing': 2,
 
         // Validates JSDoc comments are syntactically correct

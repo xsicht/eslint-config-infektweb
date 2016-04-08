@@ -13,7 +13,7 @@ module.exports = {
         // Enforce quote style for JSX attributes
         'jsx-quotes': [2, 'prefer-double'],
 
-        // Prevent missing displayName in a React component definition
+        // Prevent missing displayName in a react component definition
         'react/display-name': [2, { 'ignoreTranspilerName': false }],
 
         // Enforce boolean attributes notation in JSX
@@ -44,7 +44,7 @@ module.exports = {
         // Limit maximum of props on a single line in JSX
         'react/jsx-max-props-per-line': [2, { 'maximum': 2 }],
 
-        // No .bind() or Arrow Functions in JSX Props
+        // No .bind() or arrow functions in JSX props
         'react/jsx-no-bind': 2,
 
         // Prevent duplicate properties in JSX
@@ -53,10 +53,10 @@ module.exports = {
         // Disallow undeclared variables in JSX
         'react/jsx-no-undef': 2,
 
-        // Enforce PasalCase for user-defined JSX components
+        // Enforce pascalcase for user-defined JSX components
         'react/jsx-pascal-case': 2,
 
-        // Prevent React to be incorrectly marked as unused
+        // Prevent react to be incorrectly marked as unused
         'react/jsx-uses-react': 2,
 
         // Prevent variables used in JSX to be incorrectly marked as unused
@@ -89,10 +89,10 @@ module.exports = {
         // Enforce ES6 class for components
         'react/prefer-es6-class': [2, 'always'],
 
-        // Prevent missing props validation in a React component definition
+        // Prevent missing props validation in a react component definition
         'react/prop-types': 2,
 
-        // Prevent missing React when using JSX
+        // Prevent missing react when using JSX
         'react/react-in-jsx-scope': 2,
 
         // Restrict file extensions that may be required

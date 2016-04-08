@@ -44,7 +44,7 @@ module.exports = {
         // Disallow empty destructuring patterns
         'no-empty-pattern': 2,
 
-        // Disallow Symbol Constructor
+        // Disallow symbol constructor
         'no-new-symbol': 2,
 
         // Disallow specific imports
@@ -63,7 +63,7 @@ module.exports = {
         // that are never modified after declared.
         'prefer-const': 2,
 
-        // Suggest using Reflect methods where applicable
+        // Suggest using reflect methods where applicable
         'prefer-reflect': 2,
 
         // Suggest using the rest parameters instead of arguments
@@ -75,7 +75,8 @@ module.exports = {
         // Disallow generator functions that do not have yield
         'require-yield': 2,
 
-        // Import Sorting
+        // Import sorting, not usable for us because of a different sort method
+        // See https://github.com/infektweb/conventions/blob/master/docs/javascript.md
         'sort-imports': 0
     }
 };
