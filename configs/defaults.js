@@ -79,7 +79,7 @@ module.exports = {
         'newline-before-return': 2,
 
         // Newline Per 3 Chained Methods
-        'newline-per-chained-call': [2, {"ignoreChainWithDepth": 3}],
+        'newline-per-chained-call': [2, {'ignoreChainWithDepth': 3}],
 
         // Disallow Use of Alert
         'no-alert': 2,
