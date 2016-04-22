@@ -48,10 +48,7 @@ module.exports = {
         'no-new-symbol': 2,
 
         // Disallow specific imports
-        'no-restricted-imports': [
-            "error",
-            "console.json"
-        ],
+        'no-restricted-imports': [2, 'console.json'],
 
         // Disallow use of this/super before calling super() in constructors
         'no-this-before-super': 2,
