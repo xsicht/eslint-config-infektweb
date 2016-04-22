@@ -37,7 +37,7 @@ module.exports = {
         'complexity': [1, 8],
 
         // Disallow spaces inside of computed properties
-        'computed-property-spacing': [2, 'never'],
+        'computed-property-spacing': 2,
 
         // Allow brace-less single-line if, else, etc.
         'curly': [2, 'multi-line'],
@@ -46,7 +46,7 @@ module.exports = {
         'dot-location': [2, 'property'],
 
         // Require file to end with single newline
-        'eol-last': [2],
+        'eol-last': 2,
 
         // Enforce function declarations instead of expressions
         'func-style': [2, 'declaration'],
@@ -129,7 +129,7 @@ module.exports = {
         'no-magic-numbers': 0,
 
         // Disallows multiple blank lines
-        'no-multiple-empty-lines': [2, {'max': 1}],
+        'no-multiple-empty-lines': [2, { 'max': 1 }],
 
         // Disallow multiple spaces
         'no-multi-spaces': 2,
