@@ -27,6 +27,9 @@ module.exports = {
         // Require camelcase
         'camelcase': 2,
 
+        // Disallow or Enforce Dangling Commas
+        'comma-dangle': 2,
+
         // Enforces spacing around commas
         'comma-spacing': [2, { 'before': false, 'after': true }],
 
