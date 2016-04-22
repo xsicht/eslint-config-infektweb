@@ -56,6 +56,9 @@ module.exports = {
         // Enforce pascalcase for user-defined JSX components
         'react/jsx-pascal-case': 2,
 
+        // Validate spacing before closing bracket in JSX
+        'react/jsx-space-before-closing': [2, 'always'],
+
         // Prevent react to be incorrectly marked as unused
         'react/jsx-uses-react': 2,
 
