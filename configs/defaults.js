@@ -205,7 +205,14 @@ module.exports = {
         'operator-linebreak': [2, 'before'],
 
         // Never write padded blocks (start and end with blank lines)
-        'padded-blocks': [2, 'never'],
+        'padded-blocks': [
+            2,
+            {
+                'blocks': 'never',
+                'switches': 'never',
+                'classes': 'always'
+            }
+        ],
 
         // Enforce quote style
         'quotes': [2, 'single'],
