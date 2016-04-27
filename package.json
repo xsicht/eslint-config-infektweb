@@ -3,6 +3,9 @@
   "version": "1.11.0",
   "description": "ESLint shared configs for Infektweb projects",
   "main": "index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/infektweb/eslint-config-infektweb.git"
