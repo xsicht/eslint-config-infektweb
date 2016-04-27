@@ -16,6 +16,9 @@ module.exports = {
         // Prevent missing displayName in a react component definition
         'react/display-name': [2, { 'ignoreTranspilerName': false }],
 
+        // Forbid vague propTypes (any, array, object)
+        'react/forbid-prop-types': 2,
+
         // Enforce boolean attributes notation in JSX
         // e.g. <Icon spin />
         'react/jsx-boolean-value': [2, 'never'],
