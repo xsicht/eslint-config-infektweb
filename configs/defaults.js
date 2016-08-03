@@ -188,6 +188,9 @@ module.exports = {
         // Disallow use of void operator
         'no-void': 2,
 
+        // Disallow undeclared variables
+        'no-undef': 2,
+
         // Often code is marked during development process for later work on it or with additional thoughts.
         // These comments are a warning signal, that there is something not production ready in your code.
         'no-warning-comments': [2, { 'terms': ['todo', 'fixme'], 'location': 'start' }],
