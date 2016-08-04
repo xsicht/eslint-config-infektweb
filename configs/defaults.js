@@ -40,7 +40,7 @@ module.exports = {
         'computed-property-spacing': 2,
 
         // Allow brace-less single-line if, else, etc.
-        'curly': [2, 'multi-line'],
+        'curly': [2, 'multi-line', 'consistent'],
 
         // Enforce newline before a dot in a member expression
         'dot-location': [2, 'property'],
