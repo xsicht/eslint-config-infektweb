@@ -246,6 +246,26 @@ module.exports = {
 
         // Validates JSDoc comments are syntactically correct
         'valid-jsdoc': [2, {
+            'prefer': {
+                'arg': 'param',
+                'argument': 'param',
+                'return': 'returns'
+            },
+            'preferType': {
+                'array': 'Array',
+                'bool': 'boolean',
+                'Bool': 'boolean',
+                'Boolean': 'boolean',
+                'buffer': 'Buffer',
+                'function': 'Function',
+                'int': 'number',
+                'Int': 'number',
+                'integer': 'number',
+                'Integer': 'number',
+                'Number': 'number',
+                'object': 'Object',
+                'String': 'string'
+            },
             'requireParamDescription': false,
             'requireReturnDescription': false
         }]
