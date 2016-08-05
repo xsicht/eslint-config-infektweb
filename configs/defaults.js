@@ -154,6 +154,9 @@ module.exports = {
         // Disallow trailing spaces at the end of lines
         'no-trailing-spaces': 2,
 
+        // Disallow Undeclared Variables
+        'no-undef': [2, { 'typeof': true }],
+
         // Avoid unexpected multiline expressions
         'no-unexpected-multiline': 2,
 
@@ -187,9 +190,6 @@ module.exports = {
 
         // Disallow use of void operator
         'no-void': 2,
-
-        // Disallow undeclared variables
-        'no-undef': 2,
 
         // Often code is marked during development process for later work on it or with additional thoughts.
         // These comments are a warning signal, that there is something not production ready in your code.
