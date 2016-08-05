@@ -168,7 +168,7 @@ module.exports = {
         'no-unused-labels': 2,
 
         // Disallow unused variables
-        'no-unused-vars': 2,
+        'no-unused-vars': [2, { 'vars': 'all', 'args': 'all' }],
 
         // Disallow unnecessary .call() and .apply()
         'no-useless-call': 2,
