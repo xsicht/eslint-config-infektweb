@@ -7,8 +7,14 @@ module.exports = {
         'bdd'
     ],
     'rules': {
+        // Do not enforce getter/setter pairs in objects
+        'accessor-pairs': 0,
+
         // Disallow spaces inside of brackets
         'array-bracket-spacing': [2, 'never'],
+
+        // Enforce return statements in callbacks of array’s methods
+        'array-callback-return': 2,
 
         // Catch excluded tests
         // e.g. xdescribe, xit
@@ -17,6 +23,9 @@ module.exports = {
         // Catch focus tests
         // e.g. ddescribe, iit
         'bdd/focus': 2,
+
+        // Treat var as Block Scoped
+        'block-scoped-var': 2,
 
         // Enforce spaces inside of single line blocks
         'block-spacing': [2, 'always'],
@@ -39,17 +48,32 @@ module.exports = {
         // Disallow spaces inside of computed properties
         'computed-property-spacing': 2,
 
+        // Do not require return statements to either always or never specify values
+        'consistent-return': 0,
+
         // Allow brace-less single-line if, else, etc.
         'curly': [2, 'multi-line', 'consistent'],
+
+        // Do not require Default Case in Switch Statements
+        'default-case': 0,
 
         // Enforce newline before a dot in a member expression
         'dot-location': [2, 'property'],
 
+        // Require Dot Notation
+        'dot-notation': [2, { 'allowKeywords': true }],
+
         // Require file to end with single newline
         'eol-last': 2,
 
+        // Require === and !==
+        'eqeqeq': [2, 'always'],
+
         // Enforce function declarations instead of expressions
         'func-style': [2, 'declaration'],
+
+        // Do not require Guarding for-in
+        'guard-for-in': 0,
 
         // Blacklist certain identifiers (variable names, function names, object properties )
         // e.g. the following would throw an error:
@@ -90,25 +114,97 @@ module.exports = {
         // Disallow use of alert
         'no-alert': 2,
 
+        // Disallow Use of caller/callee
+        'no-caller': 2,
+
         // Disallow lexical declarations in case/default clauses
         'no-case-declarations': 2,
+
+        // Disallow Shadowing of Variables Inside of catch
+        'no-catch-shadow': 2,
+
+        // Disallow assignment operators in conditional statements
+        'no-cond-assign': [2, 'always'],
 
         // Disallow use of console
         'no-console': 2,
 
+        // Disallow constant expressions in conditions
+        'no-constant-condition': [2, { 'checkLoops': true }],
+
+        // Disallow control characters in regular expressions
+        'no-control-regex': 2,
+
+        // Disallow the use of debugger
+        'no-debugger': 2,
+
+        // Disallow deleting variables
+        'no-delete-var': 2,
+
+        // Disallow Regexs That Look Like Division
+        'no-div-regex': 2,
+
+        // Disallow duplicate arguments in function definitions
+        'no-dupe-args': 2,
+
+        // Disallow duplicate keys in object literals
+        'no-dupe-keys': 2,
+
+        // Disallow duplicate case labels in switch statements
+        'no-duplicate-case': 2,
+
+        // Disallow return before else
+        'no-else-return': 2,
+
+        // Disallow empty block statements
+        'no-empty': 2,
+
+        // Disallow empty character classes in regular expressions
+        'no-empty-character-class': 2,
+
         // Disallow empty functions, expect arrow functions
         'no-empty-function': [2, { 'allow': ['arrowFunctions'] }],
+
+        // Disallow empty destructuring patterns
+        'no-empty-pattern': 2,
 
         // Disallow null comparisons
         // e.g. if (foo == null) ...
         'no-eq-null': 2,
 
+        // Disallow eval()
+        'no-eval': 2,
+
+        // Disallow reassigning exceptions in catch clauses
+        'no-ex-assign': 2,
+
+        // Disallow Extending of Native Objects
+        'no-extend-native': 2,
+
+        // Disallow unnecessary function binding
+        'no-extra-bind': 2,
+
+        // Disallow unnecessary boolean casts
+        'no-extra-boolean-cast': 2,
+
         // Disallow unnecessary labels
         'no-extra-label': 2,
+
+        // Disallow unnecessary parentheses
+        'no-extra-parens': 0,
+
+        // Disallow unnecessary semicolons
+        'no-extra-semi': 2,
+
+        // Disallow Case Statement Fallthrough
+        'no-fallthrough': 2,
 
         // Disallow floating decimals
         // e.g. var num = .5;
         'no-floating-decimal': 2,
+
+        // Disallow reassigning function declarations
+        'no-func-assign': 2,
 
         // Disallow the type conversion with shorter notations
         'no-implicit-coercion': 2,
@@ -116,11 +212,32 @@ module.exports = {
         // Disallow var and named functions in global scope
         'no-implicit-globals': 2,
 
+        // Disallow Implied eval()
+        'no-implied-eval': 2,
+
+        // Disallow function or var declarations in nested blocks
+        'no-inner-declarations': 2,
+
+        // Disallow invalid regular expression strings in RegExp constructors
+        'no-invalid-regexp': 2,
+
         // Disallow this keywords outside of classes or class-like objects
         'no-invalid-this': 2,
 
+        // Disallow irregular whitespace
+        'no-irregular-whitespace': [2, { 'skipStrings': false }],
+
+        // Disallow Iterator
+        'no-iterator': 2,
+
+        // Disallow Labels That Are Variables Names
+        'no-label-var': 2,
+
         // Disallow labeled statements
         'no-labels': 2,
+
+        // Disallow Unnecessary Nested Blocks
+        'no-lone-blocks': 2,
 
         // Disallow functions in loops
         'no-loop-func': 2,
@@ -134,11 +251,62 @@ module.exports = {
         // Disallow multiple spaces
         'no-multi-spaces': 2,
 
+        // Disallow Multiline Strings
+        'no-multi-str': 2,
+
+        // Disallow Reassignment of Native Objects
+        'no-native-reassign': 2,
+
         // Disallow use of negated expressions in conditions
         'no-negated-condition': 2,
 
+        // Disallow negating the left operand in in expressions
+        'no-negated-in-lhs': 2,
+
         // Nesting ternary expressions makes code unclear
         'no-nested-ternary': 2,
+
+        // Disallow new For Side Effects
+        'no-new': 2,
+
+        // Disallow Function Constructor
+        'no-new-func': 2,
+
+        // Disallow Primitive Wrapper Instances
+        'no-new-wrappers': 2,
+
+        // Disallow calling global object properties as functions
+        'no-obj-calls': 2,
+
+        // Disallow octal escape sequences in string literals
+        'no-octal-escape': 2,
+
+        // Disallow octal literals
+        'no-octal': 2,
+
+        // Disallow Reassignment of Function Parameters
+        'no-param-reassign': 0,
+
+        // Disallow Use of __proto__
+        'no-proto': 2,
+
+        // Disallow use of Object.prototypes builtins directly
+        'no-prototype-builtins': 2,
+
+        // Disallow Redeclaring Variables
+        'no-redeclare': [2, { 'builtinGlobals': false }],
+
+        // Disallow multiple spaces in regular expression literals
+        'no-regex-spaces': 2,
+
+        // Do not disallow specific global variables
+        'no-restricted-globals': 0,
+
+        // Disallow Assignment in return Statement
+        'no-return-assign': 0,
+
+        // Disallow Script URLs
+        'no-script-url': 2,
 
         // Disallow self assignment
         'no-self-assign': 2,
@@ -146,6 +314,18 @@ module.exports = {
         // Comparing a variable against itself is usually an error,
         // either an typo or refactoring error
         'no-self-compare': 2,
+
+        // Disallow Use of the Comma Operator
+        'no-sequences': 2,
+
+        // Allow Shadowing
+        'no-shadow': 0,
+
+        // Disallow Shadowing of Restricted Names
+        'no-shadow-restricted-names': 2,
+
+        // Disallow sparse arrays
+        'no-sparse-arrays': 2,
 
         // It is considered good practice to only throw the errorobject itself
         // or an object using the error object as base objects for user-defined exceptions
@@ -157,6 +337,12 @@ module.exports = {
         // Disallow Undeclared Variables
         'no-undef': [2, { 'typeof': true }],
 
+        // Disallow Initializing to undefined
+        'no-undef-init': 2,
+
+        // Allow Use of undefined Variable
+        'no-undefined': 0,
+
         // Avoid unexpected multiline expressions
         'no-unexpected-multiline': 2,
 
@@ -166,6 +352,15 @@ module.exports = {
         // Disallow boolean literals in conditional expressions
         // e.g. bad: var a = x ? true : false;
         'no-unneeded-ternary': 2,
+
+        // Disallow unreachable code after return, throw, continue, and break statements
+        'no-unreachable': 2,
+
+        // Disallow control flow statements in finally blocks
+        'no-unsafe-finally': 2,
+
+        // Disallow Unused Expressions
+        'no-unused-expressions': [2, { 'allowShortCircuit': false, 'allowTernary': true }],
 
         // Disallow unused labels
         'no-unused-labels': 2,
@@ -198,6 +393,9 @@ module.exports = {
         // Disallow whitespace before properties
         'no-whitespace-before-property': 2,
 
+        // Disallow with statements
+        'no-with': 2,
+
         // Enforces a space inside of curly braces in objects
         'object-curly-spacing': [2, 'always'],
 
@@ -226,6 +424,9 @@ module.exports = {
         // Use literals for object property names (strings only as needed)
         'quote-props': [2, 'as-needed'],
 
+        // Require Radix Parameter
+        'radix': [2, 'always'],
+
         // Enforce semicolons
         'semi': 2,
 
@@ -241,8 +442,14 @@ module.exports = {
         // Disallow spaces inside of parentheses
         'space-in-parens': [2, 'never'],
 
+        // Require strict mode directives
+        'strict': [2, 'global'],
+
         // Disallow usage of spacing in template strings
         'template-curly-spacing': 2,
+
+        // Require calls to isNaN() when checking for NaN
+        'use-isnan': 2,
 
         // Validates JSDoc comments are syntactically correct
         'valid-jsdoc': [2, {
@@ -268,6 +475,18 @@ module.exports = {
             },
             'requireParamDescription': false,
             'requireReturnDescription': false
-        }]
+        }],
+
+        // Enforce comparing typeof expressions against valid strings
+        'valid-typeof': 2,
+
+        // Require Variable Declarations to be at the top of their scope
+        'vars-on-top': 0,
+
+        // Require IIFEs to be Wrapped
+        'wrap-iife': [2, 'outside'],
+
+        // Disallow Yoda Conditions
+        'yoda': [2, 'never']
     }
 };
