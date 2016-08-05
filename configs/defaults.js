@@ -61,7 +61,7 @@ module.exports = {
         'indent': [2, 4, { 'SwitchCase': 1 }],
 
         // Enforce variable initializations
-        'init-declarations': 2,
+        'init-declarations': [2, 'always'],
 
         // Require spaces following keywords (e.g. if, else, for, ...)
         'keyword-spacing': 2,
