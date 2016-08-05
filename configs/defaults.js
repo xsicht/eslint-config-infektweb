@@ -170,6 +170,9 @@ module.exports = {
         // Disallow unused variables
         'no-unused-vars': [2, { 'vars': 'all', 'args': 'all' }],
 
+        // Disallow early use of variables but allow function declarations
+        'no-use-before-define': [2, { 'classes': true, 'functions': false }],
+
         // Disallow unnecessary .call() and .apply()
         'no-useless-call': 2,
 
@@ -181,9 +184,6 @@ module.exports = {
 
         // Disallow unnecessary escape usage
         'no-useless-escape': 2,
-
-        // Disallow early use of variables but allow function declarations
-        'no-use-before-define': [2, 'nofunc'],
 
         // Disallow use of void operator
         'no-void': 2,
