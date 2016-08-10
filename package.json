@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-infektweb",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "description": "ESLint shared configs for Infektweb projects",
   "main": "index.js",
   "scripts": {
