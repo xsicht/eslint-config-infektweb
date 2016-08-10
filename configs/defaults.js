@@ -366,7 +366,7 @@ module.exports = {
         'no-unused-labels': 2,
 
         // Disallow unused variables
-        'no-unused-vars': [2, { 'vars': 'all', 'args': 'all' }],
+        'no-unused-vars': [2, { 'vars': 'all', 'args': 'after-used' }],
 
         // Disallow early use of variables but allow function declarations
         'no-use-before-define': [2, { 'classes': true, 'functions': false }],
