@@ -66,15 +66,6 @@ module.exports = {
         // Do not require Default Case in Switch Statements
         'default-case': 0,
 
-        // Do not specify disallowed identifiers
-        'id-blacklist': 0,
-
-        // Do not enforce minimum and maximum identifier lengths
-        'id-length': 0,
-
-        // Do not require identifiers to match a specified regular expressions
-        'id-match': 0,
-
         // Enforce newline before a dot in a member expression
         'dot-location': [2, 'property'],
 
@@ -96,11 +87,14 @@ module.exports = {
         // Do not require Guarding for-in
         'guard-for-in': 0,
 
-        // Blacklist certain identifiers (variable names, function names, object properties )
-        // e.g. the following would throw an error:
-        // 'id-blacklist': ['data']
-        // const data = {...};
+        // Do not specify disallowed identifiers
         'id-blacklist': 0,
+
+        // Do not enforce minimum and maximum identifier lengths
+        'id-length': 0,
+
+        // Do not require identifiers to match a specified regular expressions
+        'id-match': 0,
 
         // Validates indentation
         'indent': [2, 4, {
@@ -356,18 +350,18 @@ module.exports = {
         // because it gets already reported by 'no-tabs' rule
         'no-mixed-spaces-and-tabs': 0,
 
+        // Disallow multiple spaces
+        'no-multi-spaces': 2,
+
+        // Disallow Multiline Strings
+        'no-multi-str': 2,
+
         // Disallows multiple blank lines
         'no-multiple-empty-lines': [2, {
             'max': 1,
             'maxEOF': 0,
             'maxBOF': 0
         }],
-
-        // Disallow multiple spaces
-        'no-multi-spaces': 2,
-
-        // Disallow Multiline Strings
-        'no-multi-str': 2,
 
         // Disallow Reassignment of Native Objects
         'no-native-reassign': 2,
@@ -522,9 +516,6 @@ module.exports = {
 
         // Disallow unncessary concatenation of strings
         'no-useless-concat': 2,
-
-        // Disallow unnecessary constructor
-        'no-useless-constructor': 2,
 
         // Disallow unnecessary escape usage
         'no-useless-escape': 2,
