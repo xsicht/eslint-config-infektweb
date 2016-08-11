@@ -630,9 +630,6 @@ module.exports = {
         // Require strict mode directives
         'strict': [2, 'global'],
 
-        // Disallow usage of spacing in template strings
-        'template-curly-spacing': 2,
-
         // Disallow the Unicode Byte Order Mark
         'unicode-bom': [2, 'never'],
 
