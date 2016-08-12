@@ -588,7 +588,7 @@ module.exports = {
         // Enforce semicolons
         'semi': [2, 'always'],
 
-        // Enforce spacing before and after semicolons
+        // Enforce spacing after semicolons
         'semi-spacing': [2, {
             'before': false,
             'after': true

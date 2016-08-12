@@ -33,7 +33,7 @@ module.exports = {
         // Disallow process.exit()
         'no-process-exit': 2,
 
-        // Do not disallow Node.js modules
+        // Do not disallow any Node.js modules
         'no-restricted-modules': 0,
 
         // Disallow synchronous methods

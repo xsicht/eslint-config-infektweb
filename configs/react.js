@@ -17,6 +17,8 @@ module.exports = {
         'react/display-name': [2, { 'ignoreTranspilerName': false }],
 
         // Forbid certain props on Components
+        // Waiting for rule getting released:
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/lib/rules/forbid-prop-types.js
         // 'react/forbid-component-props': [2, { 'forbid': ['className', 'style'] }],
 
         // Forbid vague propTypes
@@ -131,7 +133,7 @@ module.exports = {
         // Prevent usage of the return value of React.render
         'react/no-render-return-value': 2,
 
-        // Prevent usage of setState
+        // Allow usage of setState
         'react/no-set-state': 0,
 
         // Prevent using string references
