@@ -1,7 +1,12 @@
 module.exports = {
     'rules': {
         // Enforce return after callback
-        'callback-return': [2, ['callback', 'cb', 'next', 'done']],
+        'callback-return': [2, [
+            'callback',
+            'cb',
+            'next',
+            'done'
+        ]],
 
         // Enforce require() on the top-level module scope
         'global-require': 0,
@@ -11,7 +16,10 @@ module.exports = {
         'handle-callback-err': [2, '^.*(e|E)rr' ],
 
         // Disallow Mixed Requires
-        'no-mixed-requires': [2, { 'grouping': false, 'allowCall': false }],
+        'no-mixed-requires': [2, {
+            'grouping': false,
+            'allowCall': false
+        }],
 
         // Disallow new require
         'no-new-require': 2,

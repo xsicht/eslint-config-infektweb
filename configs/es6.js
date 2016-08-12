@@ -24,7 +24,10 @@ module.exports = {
         'babel/arrow-parens': 2, // Handles async functions correctly
 
         // Require space before/after arrow function's arrow
-        'arrow-spacing': [2, { 'before': true, 'after': true }],
+        'arrow-spacing': [2, {
+            'before': true,
+            'after': true
+        }],
 
         // Verify calls of super() in constructors
         'constructor-super': 2,
@@ -77,11 +80,17 @@ module.exports = {
         'object-shorthand': [2, 'always'],
 
         // Suggest using arrow functions as callbacks
-        'prefer-arrow-callback': [2, { 'allowNamedFunctions': false, 'allowUnboundThis': true }],
+        'prefer-arrow-callback': [2, {
+            'allowNamedFunctions': false,
+            'allowUnboundThis': true
+        }],
 
         // Suggest to use const declaration for variables
         // that are never modified after declared.
-        'prefer-const': [2, { 'destructuring': 'any', 'ignoreReadBeforeAssign': false }],
+        'prefer-const': [2, {
+            'destructuring': 'any',
+            'ignoreReadBeforeAssign': false
+        }],
 
         // Suggest using reflect methods where applicable
         'prefer-reflect': 2,

@@ -41,8 +41,8 @@ module.exports = {
 
         // Enforces spacing around commas
         'comma-spacing': [2, {
-            'after': true,
-            'before': false
+            'before': false,
+            'after': true
         }],
 
         // Enforce comma at the end of the line in comma-separated lists
@@ -107,17 +107,17 @@ module.exports = {
         // Enforce variable initializations
         'init-declarations': [2, 'always'],
 
-        // Require spaces following keywords (e.g. if, else, for, ...)
-        'keyword-spacing': [2, {
-            'after': true,
-            'before': true
-        }],
-
         // Enforce property spacing
         'key-spacing': [2, {
-            'afterColon': true,
             'beforeColon': false,
+            'afterColon': true,
             'mode': 'strict'
+        }],
+
+        // Require spaces following keywords (e.g. if, else, for, ...)
+        'keyword-spacing': [2, {
+            'before': true,
+            'after': true
         }],
 
         // Enforce consistent linebreak style
