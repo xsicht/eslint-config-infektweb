@@ -594,6 +594,9 @@ module.exports = {
             'after': true
         }],
 
+        // Require object keys to be sorted
+        'sort-keys': [2, 'asc', { 'caseSensitive': false, 'natural': true }],
+
         // Do not enforce Variable Sorting
         'sort-vars': 0,
 
