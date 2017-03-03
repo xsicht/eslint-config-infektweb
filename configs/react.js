@@ -158,8 +158,7 @@ module.exports = {
         'react/require-extension': [1, { 'extensions': ['.js', '.jsx'] }],
 
         // Enforce React components to have a shouldComponentUpdate method
-        // Disabled because of: https://github.com/infektweb/eslint-config-infektweb/issues/47
-        // 'react/require-optimization': 2,
+        'react/require-optimization': 2,
 
         // Enforce ES5 or ES6 class for returning value in render function
         'react/require-render-return': 2,
