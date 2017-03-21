@@ -20,8 +20,7 @@ module.exports = {
         'arrow-body-style': 0,
 
         // Require parens in arrow function arguments
-        'arrow-parens': 0,
-        'babel/arrow-parens': 2, // Handles async functions correctly
+        'arrow-parens': 2,
 
         // Require space before/after arrow function's arrow
         'arrow-spacing': [2, {
@@ -35,6 +34,9 @@ module.exports = {
         // Do not enforce spacing after the * in generator functions
         // because of https://github.com/eslint/eslint/issues/6274
         'generator-star-spacing': 0,
+
+        // Restrict file extensions that may be required
+        'import/extensions': [1, { 'extensions': ['.js'] }],
 
         // Disallow modifying variables of class declarations
         'no-class-assign': 2,

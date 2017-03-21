@@ -154,9 +154,6 @@ module.exports = {
         // Prevent missing react when using JSX
         'react/react-in-jsx-scope': 2,
 
-        // Restrict file extensions that may be required
-        'react/require-extension': [1, { 'extensions': ['.js', '.jsx'] }],
-
         // Enforce React components to have a shouldComponentUpdate method
         'react/require-optimization': 2,
 
