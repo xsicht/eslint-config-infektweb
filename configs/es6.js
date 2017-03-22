@@ -36,7 +36,7 @@ module.exports = {
         'generator-star-spacing': 0,
 
         // Restrict file extensions that may be required
-        'import/extensions': [1, { 'extensions': ['.js'] }],
+        'import/extensions': [2, { 'js': 'never' }],
 
         // Disallow modifying variables of class declarations
         'no-class-assign': 2,
