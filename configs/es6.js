@@ -2,11 +2,13 @@ var checkModuleAvailability = require('../helpers/checkModuleAvailability');
 
 checkModuleAvailability('babel-eslint');
 checkModuleAvailability('eslint-plugin-babel');
+checkModuleAvailability('eslint-plugin-import');
 
 module.exports = {
     'parser': 'babel-eslint',
     'plugins': [
-        'babel'
+        'babel',
+        'import'
     ],
     'env': {
         'es6': true
