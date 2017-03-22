@@ -40,6 +40,15 @@ module.exports = {
         // Restrict file extensions that may be required
         'import/extensions': [2, { 'js': 'never' }],
 
+        // Enforce convention in module import order
+        'import/order': [2, {
+            'groups': [
+                ['builtin', 'external'],
+                ['internal', 'parent', 'index', 'sibling']
+            ],
+            'newlines-between': 'always'
+        }],
+
         // Disallow modifying variables of class declarations
         'no-class-assign': 2,
 
