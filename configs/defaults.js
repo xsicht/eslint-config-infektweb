@@ -98,6 +98,7 @@ module.exports = {
 
         // Validates indentation
         'indent': [2, 4, {
+            'FunctionDeclaration': {'body': 1, 'parameters': 1},
             'MemberExpression': 1,
             'outerIIFEBody': 1,
             'SwitchCase': 1,
